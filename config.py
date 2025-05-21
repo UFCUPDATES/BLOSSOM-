@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Silenthrax")
+OWNER_USERNAME = getenv("OWNER_USERNAME","l_HEART_BEAT_l")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","LISA_UFC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME","BLOSSOM_MUSIC_BOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,10 +30,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @RJ_92_MUSIC_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7978151350))
+OWNER_ID = int(getenv("OWNER_ID", 8195333063))
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/UFC_UPDATES")
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Silenthrax/SILENTHRAX",
+    "https://github.com/UFCUPDATES/BLOSSOM-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Silenthrex")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BESTIE_UNITE_CLUB")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_P_U_L_lI")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/UFC_UPDATES")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/8f3oe7.jpg"
+    "START_IMG_URL",,"https://files.catbox.moe/uk17ym.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/8f3oe7.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/uk17ym.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/8f3oe7.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/8f3oe7.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/u7btb8.mp4"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/u7btb8.mp4"
-STREAM_IMG_URL = "https://files.catbox.moe/u7btb8.mp4"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/u7btb8.mp4"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/u7btb8.mp4"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/u7btb8.mp4"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/u7btb8.mp4"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/u7btb8.mp4"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/uk17ym.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/0krfkc.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/0krfkc.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
 
 
 def time_to_seconds(time):
