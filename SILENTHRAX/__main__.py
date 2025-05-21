@@ -41,11 +41,11 @@ async def init():
     await userbot.start()
     await RAUSHAN.start()
     await RAUSHAN.decorators()
-    LOGGER("SILENTHRAX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐊ʀɪsʜɴᴇᴛᴡᴏʀᴋ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("SILENTHRAX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐇єᴧʀ፝֠֩ᴛʙєᴧᴛ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SILENTHRAX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐊ʀɪsʜɴᴇᴛᴡᴏʀᴋ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("SILENTHRAX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️ 𝐇єᴧʀ፝֠֩ᴛʙєᴧᴛ ♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
 
 if __name__ == "__main__":
