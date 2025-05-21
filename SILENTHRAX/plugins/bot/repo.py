@@ -34,10 +34,12 @@ async def start(_, msg):
                [
                 InlineKeyboardButton("𝚻꯭ᴀᴍᴀᴎᴎᴀ ꭙ 𝚳꯭ᴜᴤᴉᴒ", url=f"https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_fBSoVjdmODhl"),
 ],
+    ]
+        
 [
 InlineKeyboardButton("𝗕𝗟𝗢𝗦𝗦𝗢𝗠 𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/BLOSSOM_MUSIC_BOT?startgroup=true"),
 
-     C]
+]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
