@@ -18,31 +18,20 @@ start_txt = """
 
 """
 
-
-
-
 @app.on_message(filters.command("repo"))
-async def start(_, msg):
+async def repo(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("💠 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ 💠", url=f"https://t.me/BLOSSOM_MUSIC_BOT?startgroup=true")
+            InlineKeyboardButton("💠 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ 💠", url="https://t.me/BLOSSOM_MUSIC_BOT?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗕𝗟𝗢𝗦𝗦𝗢𝗠 𝗠𝗨𝗦𝗜𝗖 ♪", url="https://t.me/UFC_UPDATES"),
-          InlineKeyboardButton("𝚻꯭ᴀᴍᴀᴎᴎᴀ ꭙ 𝚳꯭ᴜᴤᴉᴒ", url="https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_fBSoVjdmODhl"),
-          ],
-               [
-                InlineKeyboardButton("𝚻꯭ᴀᴍᴀᴎᴎᴀ ꭙ 𝚳꯭ᴜᴤᴉᴒ", url=f"https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_fBSoVjdmODhl"),
-],
+            InlineKeyboardButton("𝗕𝗟𝗢𝗦𝗦𝗢𝗠 𝗠𝗨𝗦𝗜𝗖 ♪", url="https://t.me/UFC_UPDATES"),
+            InlineKeyboardButton("𝚻꯭ᴀᴍᴀɴɴᴀ ꭙ 𝚳꯭ᴜꜱɪᴄ", url="https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_fBSoVjdmODhl")
+        ]
     ]
-        
-[
-InlineKeyboardButton("𝗕𝗟𝗢𝗦𝗦𝗢𝗠 𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/BLOSSOM_MUSIC_BOT?startgroup=true"),
 
-]
-    
     reply_markup = InlineKeyboardMarkup(buttons)
-    
+
     await msg.reply_video(
         video="https://files.catbox.moe/f1b5ye.mp4",
         caption=start_txt,
