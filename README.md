@@ -1,7 +1,7 @@
 <p align="center"><a href="https://github.com/Silenthrax/SILENTHREX/blob/main/SILENTHRAX/assets/cookies.txt"> <img src="https://img.shields.io/badge/Add%20Your%20Cookies-blue?style=for-the-badge" width="220" height="38.45"/></a></p>
   
   <h2 align="center">
-    ── 𝗟श𝗕𝗟𝗢𝗦𝗦𝗢𝗠 𝗠𝗨𝗦𝗜𝗖  ♪ 
+    ── 𝗕𝗟𝗢𝗦𝗦𝗢𝗠 𝗠𝗨𝗦𝗜𝗖  ♪ 
 <p align="center">
   <img src="https://files.catbox.moe/uk17ym.jpg">
 </p>
