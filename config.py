@@ -35,6 +35,9 @@ OWNER_ID = int(getenv("OWNER_ID", 8195333063))
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/UFC_UPDATES")
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", 'NxGBNexGenBotsad3e6e') # youtube song api key, get it from ht
+
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
