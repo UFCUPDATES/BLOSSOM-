@@ -141,8 +141,8 @@ async def greet_group(_, member:"ChatMemberUpdated"):
 ┣ 𝟒 ➥ ᴅᴏɴᴛ sᴇɴᴅ ᴀᴅᴜʟᴛ sᴛᴜғғ
 ┗━━━━━━━━━━━━━━━━━      
 
-❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐒ɪʟᴇɴᴛʜʀᴀx](https://t.me/SILENTHEX)
-""",
+❖𝐌ᴀᴅᴇ  𝐁ʏ [𝐇єᴧʀ፝֠֩ᴛʙєᴧᴛ](https://t.me/l_HEART_BEAT_l) **
+"""
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ", url=f"https://t.me/LISA_UFC_BOT?startgroup=true")]])
         )
     except Exception as e:
