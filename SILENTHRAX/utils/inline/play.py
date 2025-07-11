@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(text="❍ 𝐇єᴧʀ፝֠֩ᴛʙєᴧᴛ ❍", url="https://t.me/l_HEART_BEAT_l",),
-            InlineKeyboardButton(text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url="https://t.me/ll_P_U_L_lI",),
+            InlineKeyboardButton(text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url="https://t.me/addlist/XHStnNoVPw9lZDll",),
         ],
         [
-            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/BLOSSOM_MUSIC_ROBOT?startgroup=true",),
+            InlineKeyboardButton(text=" 𝖠ᴅᴅ ᴍᴇ 𝖡ᴀʙʏ", url="https://t.me/TAMANNA_MUSIC_BOT?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
@@ -100,10 +100,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(text="❍ 𝐇єᴧʀ፝֠֩ᴛʙєᴧᴛ ❍", url="https://t.me/l_HEART_BEAT_l",),
-            InlineKeyboardButton(text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url="https://t.me/ll_P_U_L_lI",),
+            InlineKeyboardButton(text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url="https://t.me/addlist/XHStnNoVPw9lZDll",),
         ],
         [
-            InlineKeyboardButton(text="☛ ᴧᴅᴅ ϻє ʙᴧʙʏ ☚", url="https://t.me/BLOSSOM_MUSIC_ROBOT?startgroup=true",),
+            InlineKeyboardButton(text="☛ ᴧᴅᴅ ϻє ʙᴧʙʏ ☚", url="https://t.me/TAMANNA_MUSIC_BOT?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
