@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","l_HEART_BEAT_l")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","BLOSSOM_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME","")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -96,10 +96,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/uk17ym.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/9e1ood.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/uk17ym.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ngarwt.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/0krfkc.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/uk17ym.jpg"
