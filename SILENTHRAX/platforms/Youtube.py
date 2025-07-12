@@ -32,7 +32,7 @@ def cookie_txt_file():
 
 
 YOUR_API_KEY = "xbit_0000452964319824676933"
-MUSIC_API_BASE_URL = ""  
+MUSIC_API_BASE_URL = "https://tgapi.xbitcode.com"  
 
 async def get_audio_stream_from_api(query: str):
     """Get audio stream URL from our Music Stream API with API key"""
