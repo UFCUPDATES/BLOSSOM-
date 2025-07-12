@@ -40,7 +40,7 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/UFC_UPDATES")
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## get your secret 
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_0000452964319824676933' ) ## get your secret 
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
